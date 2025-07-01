@@ -29,7 +29,7 @@ class HomePage extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 18, color: Colors.grey),
             ),
-            const SizedBox(height: 20), // Add spacing
+            const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, '/projects');
